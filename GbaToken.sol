@@ -1,12 +1,10 @@
 pragma solidity ^0.4.18;
-
 // ----------------------------------------------------------------------------------------------
 // Global Blockchain Association test token for demo
 // By: Benjamin M. Brown @benjaminmbrown
 // Enjoy.
-// Based on (c) BokkyPooBah 2017. The MIT Licence.
+// Based on Fixed Supply Token(c) BokkyPooBah 2017. The MIT Licence.
 // ----------------------------------------------------------------------------------------------
-
 
 // ERC Token Standard #20 Interface
 // https://github.com/ethereum/EIPs/issues/20
@@ -40,9 +38,9 @@ contract ERC20Interface {
 
 
 contract GbaToken is ERC20Interface {
-    string public constant symbol = "GBATOKENTEST";
+    string public constant symbol = "GBATOKEN";
     string public constant name = "Global Blockchain Association Token";
-    uint8 public constant decimals = 18;
+    uint8 public constant decimals = 0;
     uint256 _totalSupply = 100000000;
 
     // Owner of this contract
@@ -63,7 +61,7 @@ contract GbaToken is ERC20Interface {
     }
 
     // Constructor
-    function FixedSupplyToken() public {
+    function GbaToken() public {
         owner = msg.sender;
         balances[owner] = _totalSupply;
     }
@@ -117,7 +115,6 @@ contract GbaToken is ERC20Interface {
             return false;
         }
     }
-
 
     // Allow _spender to withdraw from your account, multiple times, up to the _value amount.
     // If this function is called again it overwrites the current allowance with _value.
