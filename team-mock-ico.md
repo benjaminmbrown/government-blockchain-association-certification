@@ -27,4 +27,3 @@ Add the following info for token:
 * Token Symbol: GBATOKEN
 * Decimals of Precision: 18
 
-
