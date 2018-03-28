@@ -1,6 +1,6 @@
 pragma solidity ^0.4.18;
 // ----------------------------------------------------------------------------------------------
-// Global Blockchain Association test token for demo
+// Global Blockchain Association test token for demo purposes only
 // By: Benjamin M. Brown @benjaminmbrown
 // Enjoy.
 // Based on Fixed Supply Token(c) BokkyPooBah 2017. The MIT Licence.

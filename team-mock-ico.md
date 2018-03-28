@@ -9,9 +9,7 @@
 * Add your address to this list: https://twitter.com/benjaminmbrown/status/978638292492091392
 * GET FREE TEST ETH: https://www.rinkeby.io/#faucet - this requires you tweeting a public post with your newly created test ethereum address in order to avoid spam. I may be able to send some as well.
 
-
 ## -- CREATE ICO ---
-
 
 ### Add New Token Contract to your Metamask
 
@@ -25,5 +23,6 @@ Add the following info for token:
 
 * Token Contract Address: see @benjaminmbrown tweet
 * Token Symbol: GBATOKEN
-* Decimals of Precision: 18
+* Decimals of Precision: 0
 
+Test
