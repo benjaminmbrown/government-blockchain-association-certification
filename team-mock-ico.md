@@ -21,7 +21,7 @@
 
 Add the following info for token:
 
-* Token Contract Address: see @benjaminmbrown tweet
+* Token Contract Address: see [@benjaminmbrown](http://twitter.com/benjaminmbrown) tweet
 * Token Symbol: GBATOKEN
 * Decimals of Precision: 0
 
